@@ -2,7 +2,7 @@
 <p align="center">
   <img alt="Imagem ilustrativa" src="https://cdn.dribbble.com/users/1192538/screenshots/4560126/letter.png?resize=400x0" width="400" height="300"/>
 </p>
-<h4>Projeto criado com o intuito de demonstrar minhas habilidades na criação de projetos utilizando React, useState e componentização.</h4>
+<h4>Projeto criado com o intuito de demonstrar minhas habilidades na criação de projetos utilizando React, useState, useContext e componentização.</h4>
 
 ## 📺 Imagem
 
