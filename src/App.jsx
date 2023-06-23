@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { CouterContext } from './contexts/CounterContext';
 import './App.css';
+import { Button } from './components/Button';
 
 function App() {
 
@@ -9,9 +10,19 @@ function App() {
   return (
     <div className="App App-header">
       <h1>{counter}</h1>
-      <span>
-        <button onClick={() => decrement()}>-</button>
-        <button onClick={() => increment()}>+</button>
+      <span className="container-btn">
+        <Button 
+          onClick={() => decrement()}
+          className="primary"
+        >
+          -
+        </Button>
+        <Button 
+          onClick={() => increment()}
+          className="primary"
+        >
+          +
+        </Button>
       </span>
     </div>
   );
